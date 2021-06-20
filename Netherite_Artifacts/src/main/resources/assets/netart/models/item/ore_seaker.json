@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "netart:item/ore_seaker"
+  },
+  "overrides" : [
+    { "predicate": { "custom_model_data": 1 }, "model": "netart:item/ore_seaker" },
+    { "predicate": { "custom_model_data": 2 }, "model": "netart:item/ore_seaker_red" },
+    { "predicate": { "custom_model_data": 3 }, "model": "netart:item/ore_seaker_blue" },
+    { "predicate": { "custom_model_data": 4 }, "model": "netart:item/ore_seaker_em" },
+    { "predicate": { "custom_model_data": 5 }, "model": "netart:item/ore_seaker_diam" },
+    { "predicate": { "custom_model_data": 6 }, "model": "netart:item/ore_seaker_gold" },
+    { "predicate": { "custom_model_data": 7 }, "model": "netart:item/ore_seaker_iron" }
+  ]
+}
